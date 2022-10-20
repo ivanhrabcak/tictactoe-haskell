@@ -5,8 +5,6 @@ main = do
 
     gameLoop board 1
 
-    
-
 generateBoard = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 getField :: (Int, Int) -> [Int] -> Int
